@@ -123,7 +123,7 @@ const Banner = () => {
           </div>
 
           {/* Profile Picture */}
-          <div className="flex flex-col items-center justify-center gap-2 w-32 h-36 mt-5">
+          <div className="flex flex-col items-center justify-center gap-2 w-[130px] h-[135px] mt-5">
             {imageUrl ? (
               <img src={imageUrl} alt="Uploaded" className="w-full h-full " />
             ) : (

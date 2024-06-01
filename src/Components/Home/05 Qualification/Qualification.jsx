@@ -26,7 +26,7 @@ const Qualification = () => {
       <div>
         <div className="container mx-auto">
           <header className="mt-3">
-            <h2 className="title bg-[#D3D7DE] py-3 px-3 text-[#258208] text-xl underline Times-New-Roman-bold">
+            <h2 className="title bg-[#D3D7DE] py-2 px-3 text-[#258208] text-xl underline Times-New-Roman-bold">
               Academic Qualification:
             </h2>
           </header>

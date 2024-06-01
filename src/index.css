@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Times New Roman Font */
+
+.Times-New-Roman-Regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Times-New-Roman-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Times-New-Roman-regular-italic {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.Times-New-Roman-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* List Style */
+.list-style {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  border: 2px solid white;
+  font-size: 14px;
+  width: 140px;
+  height: 40px;
+}
+
+.table-year {
+  width: 110px;
+}
+
+.table-title {
+  width: 10em;
+}
+.table-board {
+  width: 15em;
+}
+
+.table-result {
+  width: 15em;
+}
+
+/* Print */
+
+@media print {
+  label,
+  input {
+    display: none;
+  }
+
+  .print-name {
+    display: inline;
+  }
+
+  .title {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background-color: #d3d7de !important;
+  }
+
+  .details {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background-color: #e9ece9 !important;
+  }
+}

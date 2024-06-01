@@ -22,6 +22,7 @@ const Banner = () => {
     <main>
       <div className="container mx-auto mt-10">
         <div className="flex justify-between items-center ">
+          {/* Name */}
           <div className="flex justify-center items-center gap-3">
             <label htmlFor="nameInput">Name:</label>
             <input

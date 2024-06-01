@@ -58,7 +58,7 @@ const Qualification = () => {
                         type="text"
                         id="nameInput"
                         placeholder="Exam Name 1"
-                        className="border border-black rounded p-2 w-32 Times-New-Roman-regular"
+                        className="border border-black rounded p-2 w-32 Times-New-Roman-regular "
                         value={exName1}
                         onChange={(e) => setExName1(e.target.value)}
                       />

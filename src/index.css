@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Times New Roman Font */
 
 .Times-New-Roman-Regular {
@@ -36,7 +41,7 @@
   gap: 5px;
 }
 
-/* Table */
+/* Qualification Table */
 table {
   border-collapse: collapse;
   text-align: center;
